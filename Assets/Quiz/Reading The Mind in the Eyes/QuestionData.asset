@@ -1,0 +1,375 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d342a34ea63b24d4abb9f9c4256ebbec, type: 3}
+  m_Name: QuestionData
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 347790c64c4ed1149877e3c3f8c16765, type: 3}
+    options:
+    - Playful
+    - Comforting
+    - Irritated
+    - Bored
+    correctAns: Playful
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 381314b168617be44a7beef4451f4577, type: 3}
+    options:
+    - Terrified
+    - Upset
+    - Arrogant
+    - Annoyed
+    correctAns: Upset
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: b4751083780ef0a4dbe431cbf0091792, type: 3}
+    options:
+    - Joking
+    - Flustered
+    - Desire
+    - Convinced
+    correctAns: Desire
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 4d7738aae70cef34abba2ddc7632d4dc, type: 3}
+    options:
+    - Joking
+    - Insisting
+    - Amused
+    - Relaxed
+    correctAns: Insisting
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: ab334797bbe660c42a194b9fdd313793, type: 3}
+    options:
+    - Irritated
+    - Sarcastic
+    - Worried
+    - Friendly
+    correctAns: Worried
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 0d2b7b0c4c973a64eb4a53fc626e79b6, type: 3}
+    options:
+    - Aghast
+    - Fantasizing
+    - Impatient
+    - Alarmed
+    correctAns: Fantasizing
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: cc219365c1ce04a4daf7fa2150f6bff7, type: 3}
+    options:
+    - Apologetic
+    - Friendly
+    - Uneasy
+    - Dispirited
+    correctAns: Uneasy
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 441a7ee23c9efbc43b56ed33ccdbae97, type: 3}
+    options:
+    - Despondent
+    - Relieved
+    - Shy
+    - Excited
+    correctAns: Despondent
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: bf20bf697b018444bb7384e71e2c58ed, type: 3}
+    options:
+    - Annoyed
+    - Hostile
+    - Horrified
+    - Preoccupied
+    correctAns: Preoccupied
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: ae8a0e718fa7f72438658e80699a3a9b, type: 3}
+    options:
+    - Cautious
+    - Insisting
+    - Bored
+    - Aghast
+    correctAns: Cautious
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 75211f29a8c390e49a984e8748a6d84a, type: 3}
+    options:
+    - Terrified
+    - Amused
+    - Regretful
+    - Flirtatious
+    correctAns: Regretful
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: d0aa178370c424d4f9a8edfbabf0225f, type: 3}
+    options:
+    - Indifferent
+    - Embarrassed
+    - Skeptical
+    - Dispirited
+    correctAns: Skeptical
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 31c69301dd10d4c4b9fcd1eeb187c10b, type: 3}
+    options:
+    - Decisive
+    - Anticipating
+    - Threatening
+    - Shy
+    correctAns: Anticipating
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: eac640c527c9ee048a7128832822a93e, type: 3}
+    options:
+    - Irritated
+    - Disappointed
+    - Depressed
+    - Accusing
+    correctAns: Accusing
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: b4ee97d917af2164aa3da6e645197c5f, type: 3}
+    options:
+    - Contemplative
+    - Flustered
+    - Encouraging
+    - Amused
+    correctAns: Contemplative
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 12a34327fc6f1c84f93dcd435c50c23a, type: 3}
+    options:
+    - Irritated
+    - Thoughtful
+    - Encouraging
+    - Sympathetic
+    correctAns: Thoughtful
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 636caf2e89d54484b8d50039c4382fa3, type: 3}
+    options:
+    - Doubtful
+    - Affectionate
+    - Playful
+    - Aghast
+    correctAns: Doubtful
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 0b2099947fc814e4bae1b7ac219b28af, type: 3}
+    options:
+    - Decisive
+    - Amused
+    - Aghast
+    - Bored
+    correctAns: Decisive
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 707240940a0476141bd2e81aba607c6e, type: 3}
+    options:
+    - Arrogant
+    - Grateful
+    - Sarcastic
+    - Tentative
+    correctAns: Tentative
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 4943131ce5f45294abccb612484728f0, type: 3}
+    options:
+    - Dominant
+    - Friendly
+    - Guilty
+    - Horrified
+    correctAns: Friendly
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 4b502c480c622054680857b0d672fe78, type: 3}
+    options:
+    - Embarassed
+    - Fantasizing
+    - Confused
+    - Panicked
+    correctAns: Fantasizing
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 7a0ea4b8882471e4a985219631840517, type: 3}
+    options:
+    - Preoccupied
+    - Grateful
+    - Insisting
+    - Imploring
+    correctAns: Preoccupied
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: c7fbda78e94316347854e3a2a58674de, type: 3}
+    options:
+    - Contented
+    - Apologetic
+    - Defiant
+    - Curious
+    correctAns: Defiant
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 76230c84e250c7248af88d5400e9eeb6, type: 3}
+    options:
+    - Pensive
+    - Irritated
+    - Excited
+    - Hostile
+    correctAns: Pensive
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 944515e9203b9ac4eaf9c3a26601af3b, type: 3}
+    options:
+    - Panicked
+    - Incredulous
+    - Despondent
+    - Interested
+    correctAns: Interested
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 8964bd9128a209149ab684d95ab73c1d, type: 3}
+    options:
+    - Alarmed
+    - Shy
+    - Hostile
+    - Anxious
+    correctAns: Hostile
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 20efc24ee24279d449cdbe8abf6af290, type: 3}
+    options:
+    - Joking
+    - Cautious
+    - Arrogant
+    - Reassuring
+    correctAns: Cautious
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 795b7822f799fda4baaddea94aecd8db, type: 3}
+    options:
+    - Interested
+    - Joking
+    - Affectionate
+    - Contented
+    correctAns: Interested
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 87d4c44659aba624788fd19414dca87f, type: 3}
+    options:
+    - Impatient
+    - Aghast
+    - Irritated
+    - Reflective
+    correctAns: Reflective
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 261863a12c4e80a4dbd1e6766acf6fed, type: 3}
+    options:
+    - Grateful
+    - Flirtatious
+    - Hostile
+    - Disappointed
+    correctAns: Flirtatious
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 2ce15fc309a6be84d84f91fb46a56e63, type: 3}
+    options:
+    - Ashamed
+    - Confident
+    - Joking
+    - Dispirited
+    correctAns: Confident
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: d8d06c66049d5dc4582401cd0fc985c7, type: 3}
+    options:
+    - Serious
+    - Ashamed
+    - Bewildered
+    - Alarmed
+    correctAns: Serious
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 5ebe1022cc28cf64f934aad28fadd84f, type: 3}
+    options:
+    - Embarrassed
+    - Guilty
+    - Fantasizing
+    - Concerned
+    correctAns: Concerned
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: d1f3960d43d78fe49a5f7e55a5c8409a, type: 3}
+    options:
+    - Aghast
+    - Baffled
+    - Distrustful
+    - Terrified
+    correctAns: Distrustful
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: e7afc9571a0d1bb4f9624be629ce62b1, type: 3}
+    options:
+    - Puzzled
+    - Nervious
+    - Insisting
+    - Contemplative
+    correctAns: Nervious
+  - questionInfo: Which word best describes what the person in the picture is thinking
+      and feeling ?
+    questionType: 0
+    questionImg: {fileID: 21300000, guid: 8a2dc1a06148cae41b87339813b23663, type: 3}
+    options:
+    - Ashamed
+    - Nervous
+    - Suspicious
+    - Indecisive
+    correctAns: Suspicious
