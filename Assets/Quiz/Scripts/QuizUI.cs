@@ -16,7 +16,7 @@ public class QuizUI : MonoBehaviour
 {
 
     [SerializeField] private Text questionCounterText;
-    private int currentQuestionIndex = 0; 
+    private int currentQuestionIndex = 0;
     private int totalQuestions = 36;
     [SerializeField] private QuizManager quizManager;
     [SerializeField] private Text questionText;
@@ -30,10 +30,11 @@ public class QuizUI : MonoBehaviour
     private Question question;
     private bool answered;
     public int timeId = 0;
-    public int timeIdNextButton =0;
+    public int timeIdNextButton = 0;
     // LSL information 
     private TcpClient client;
     private NetworkStream stream;
+    private bool clicked = false;
 
     public DateTime[] dateTimeArrayOptionButton = new DateTime[36];
     public DateTime[] dateTimeArrayNextButton = new DateTime[36];
@@ -85,7 +86,7 @@ public class QuizUI : MonoBehaviour
     }
     // LSL code
 
-   public void Start()
+    public void Start()
     {
         // LSL code
         // StartConnection();
@@ -99,20 +100,20 @@ public class QuizUI : MonoBehaviour
 
         // Add listener for the Next button
         nextButton.onClick.AddListener(OnClickNext);
-       
+
 
     }
 
 
-   
+
     public void SetQuestion(Question question)
     {
         currentQuestionIndex++;
-        questionCounterText.text = currentQuestionIndex + " / " +  totalQuestions;
+        questionCounterText.text = currentQuestionIndex + " / " + totalQuestions;
 
         this.question = question;
-        switch(question.questionType)
-            {
+        switch (question.questionType)
+        {
             case QuestionType.TEXT:
                 questionImage.transform.parent.gameObject.SetActive(false);
                 break;
@@ -121,14 +122,14 @@ public class QuizUI : MonoBehaviour
                 questionImage.transform.gameObject.SetActive(true);
                 questionImage.gameObject.SetActive(true); // Make sure image object itself is active;
                 questionImage.sprite = question.questionImg;
-            break;
+                break;
 
         }
 
         questionText.text = question.questionInfo;
         List<string> answerList = ShuffleList.ShuffleListItems<string>(question.options);
 
-        for (int i = 0; i< options.Count; i++)
+        for (int i = 0; i < options.Count; i++)
         {
             options[i].GetComponentInChildren<Text>().text = answerList[i];
             options[i].name = answerList[i];
@@ -138,16 +139,21 @@ public class QuizUI : MonoBehaviour
         answered = false;
         nextButton.interactable = false;
         UpdateQuestionCounter();
-        
+
 
 
     }
 
-       
+
 
 
     private void onClick(Button btn)
     {
+        if (clicked)
+        {
+            return;
+        }
+        clicked = true;
         DateTime currentTime = DateTime.Now;
         dateTimeArrayOptionButton[timeId] = currentTime;
         Debug.Log("Button has been pressed " + dateTimeArrayOptionButton[timeId]);
@@ -183,6 +189,7 @@ public class QuizUI : MonoBehaviour
 
     public void OnClickNext()
     {
+        clicked = false;
         DateTime currentTime = DateTime.Now;
         dateTimeArrayNextButton[timeIdNextButton] = currentTime;
         Debug.Log("Next Button pressed Time" + dateTimeArrayNextButton[timeIdNextButton]);
@@ -190,9 +197,9 @@ public class QuizUI : MonoBehaviour
         // Store timeIdNextButton
         PlayerPrefs.SetInt("TimeIdNextButton", timeIdNextButton);
         quizManager.SelectQuestion();
-        
+
     }
-    public  void OnClickReset()
+    public void OnClickReset()
     {
         quizManager.ResetGame(); // Call QuizManager's reset method
         ResetUI(); // Reset UI elements
@@ -213,7 +220,7 @@ public class QuizUI : MonoBehaviour
     private void UpdateQuestionCounter()
     {
         totalQuestions = quizManager.quizData.questions.Count;
-      //  int currentQuestionIndex = quizManager.CurrentQuestionIndex;
+        //  int currentQuestionIndex = quizManager.CurrentQuestionIndex;
         questionCounterText.text = currentQuestionIndex + " / " + totalQuestions;
     }
 

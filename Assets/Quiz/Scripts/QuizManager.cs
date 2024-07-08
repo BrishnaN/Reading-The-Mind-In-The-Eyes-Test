@@ -49,8 +49,8 @@ public class QuizManager : MonoBehaviour
 
     public void SelectQuestion()
     {
-        //if (currentQuestionIndex < questions.Count)
-        if (currentQuestionIndex < 5)
+        if (currentQuestionIndex < questions.Count)
+        //if (currentQuestionIndex < 5)
         {
             selectedQuestion = questions[currentQuestionIndex];
             quizUI.SetQuestion(selectedQuestion);

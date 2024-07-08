@@ -48,7 +48,7 @@ public class EndSceneManager : MonoBehaviour
         Debug.Log("Time Next Button ID: " + timeIdNextButton);
 
         // Retrieve check answers
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 37; i++)
         {
             Debug.Log("End Scene checkans " + PlayerPrefs.GetInt("checkAnswer_" + i));
         }
@@ -71,7 +71,7 @@ public class EndSceneManager : MonoBehaviour
         csvBuilder.AppendLine("CheckAnswer,TimeId,TimeIdNextButton");
 
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 37; i++)
         {
             int checkAnswer = PlayerPrefs.GetInt("checkAnswer_" + i);
             string dateTimeArrayOptionButton = PlayerPrefs.GetString("dateTimeArrayOptionButton_" + i);
